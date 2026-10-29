@@ -81,7 +81,7 @@ The host half registers these localhost routes (all under the harness web server
 ## Development
 
 ```sh
-git clone https://github.com/jijiahui/dsh-voice-realtime
+git clone https://github.com/NMDwhy66154/dsh-voice-realtime
 cd dsh-voice-realtime
 npm install
 # link it into a profile instead of publishing:
