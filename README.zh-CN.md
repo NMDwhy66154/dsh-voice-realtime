@@ -80,7 +80,7 @@ DSH 桌面版请走 **设置 → 插件**，桌面 profile 归应用自己的插
 ## 开发
 
 ```sh
-git clone https://github.com/USER/dsh-voice-realtime
+git clone https://github.com/jijiahui/dsh-voice-realtime
 cd dsh-voice-realtime
 npm install
 # 想本地联调就把包软链到 profile 的 node_modules 里

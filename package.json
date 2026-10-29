@@ -55,10 +55,10 @@
   "icon": "assets/icon.svg",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USER/dsh-voice-realtime.git"
+    "url": "git+https://github.com/jijiahui/dsh-voice-realtime.git"
   },
-  "homepage": "https://github.com/USER/dsh-voice-realtime#readme",
+  "homepage": "https://github.com/jijiahui/dsh-voice-realtime#readme",
   "bugs": {
-    "url": "https://github.com/USER/dsh-voice-realtime/issues"
+    "url": "https://github.com/jijiahui/dsh-voice-realtime/issues"
   }
 }
