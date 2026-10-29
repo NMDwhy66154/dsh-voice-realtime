@@ -1,0 +1,64 @@
+{
+  "name": "dsh-voice-realtime",
+  "version": "0.1.0",
+  "description": "Real-time local speech-to-text for the DeepSeek Harness composer: live partials while you speak, SenseVoice finals with punctuation, everything on-device · 实时本地语音转文字：边说边出字，松手写入输入框",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "assets/icon.svg"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "speech-to-text",
+    "stt",
+    "asr",
+    "voice",
+    "voice-input",
+    "sherpa-onnx",
+    "sensevoice",
+    "offline",
+    "local"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "dependencies": {
+    "sherpa-onnx-node": "2.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USER/dsh-voice-realtime.git"
+  },
+  "homepage": "https://github.com/USER/dsh-voice-realtime#readme",
+  "bugs": {
+    "url": "https://github.com/USER/dsh-voice-realtime/issues"
+  }
+}
